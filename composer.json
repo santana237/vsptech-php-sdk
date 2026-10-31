@@ -1,0 +1,22 @@
+{
+    "name": "vsptech/sdk",
+    "description": "SDK PHP officiel pour l'API Revendeur VSP TECH",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "VSP TECH",
+            "homepage": "https://vsptech.host"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "VspTech\\": "src/"
+        }
+    }
+}
